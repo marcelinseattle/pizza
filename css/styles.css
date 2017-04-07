@@ -1,3 +1,49 @@
 .cost-show {
   display: none;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.jumbotron {
+  border: 5px solid black;
+  margin-top: 20px;
+  color: #0c3a6b;
+  text-align: center;
+  font-family: cursive;
+}
+
+#name {
+  border: 1px solid black;
+}
+
+#topping {
+  border: 1px solid black;
+}
+
+#size {
+  border: 1px solid black;
+}
+
+.btn {
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #87b6bc;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+#pizza {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
 }

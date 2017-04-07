@@ -20,24 +20,20 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <form role="form" id="pizza">
             <div class="form-group">
              <label for="new-first-name">Enter Your Name: </label>
-             <input type="text" class="form-control" id="name">
+             <input type="text" class="form-control" id="name" required>
             </div>
-
             <label for="">Pizza Toppings: </label>
             <select class="form-control" id="topping">
               <option value="topping1">Only with Cheese</option>
               <option value="topping2">Cheese and Pepperoni</option>
               <option value="topping3">Cheese, Pepperoni and Artichoke</option>
-              <!-- <option value="supremeP">Supreme</option> -->
             </select>
-
             <label for="">Pizza Size: </label>
             <select class="form-control" id="size">
               <option value="small">Small</option>
@@ -45,7 +41,6 @@
               <option value="large">Large</option>
             </select>
             <br>
-
             <button type="submit" class="btn btn-default">
               Submit
             </button>
@@ -53,11 +48,11 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" "below">
       <div class="row">
         <div class="col-md-6 cost-show">
-          <h2>Hello <span class="name"></span>...</h2>
-          <p>The total cost of your Pizza is: $ <span class="price"></span>.</p>
+          <p>Hello <span class="name"></span>...</p>
+          <p>The total cost of your Pizza is: $<span class="price"></span>.</p>
         </div>
       </div>
     </div>

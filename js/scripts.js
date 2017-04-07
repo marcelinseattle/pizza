@@ -4,7 +4,6 @@ function Pizza(topping, size) {
   this.topping = topping;
   this.size = size;
 }
-
 Pizza.prototype.pizzaCost = function() {
   var cost = 0;
 
@@ -15,7 +14,6 @@ Pizza.prototype.pizzaCost = function() {
   } else if (this.topping === "topping3") {
     cost += 3;
   }
-
   if (this.size === "small") {
     cost += 5;
   } else if (this.size === "medium") {
@@ -25,10 +23,6 @@ Pizza.prototype.pizzaCost = function() {
   }
   return cost;
 }
-
-
-
-
 //User Logic
 $(document).ready(function(){
   $("#pizza").submit(function(event){
@@ -38,15 +32,9 @@ $(document).ready(function(){
     var sizeInput = $("#size").val();
 
     var newPizza = new Pizza(toppingInput, sizeInput);
-
-    // console.log(newPizza.pizzaCost());
     $(".cost-show").show();
-
-
     $(".name").text(nameInput);
     $(".price").text(newPizza.pizzaCost());
-
     $("#name").val("");
-
   });
 });
