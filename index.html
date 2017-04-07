@@ -2,9 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Soul Pizza</title>
   </head>
   <body>
+    <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h2>
+            Pizza for the soul!
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form role="form" id="pizza">
+          <div class="form-group">
+           <label for="new-first-name">Enter Your Name: </label>
+           <input type="text" class="form-control" id="name">
+          </div>
 
+          <label for="">Pizza Toppings: </label>
+          <select class="form-control" id="topping">
+            <option value="cheeseP">Cheese</option>
+            <option value="pepperoniP">Pepperoni</option>
+            <option value="artichokeP">Artichoke</option>
+            <option value="supremeP">Supreme</option>
+          </select>
+
+          <label for="">Pizza Size: </label>
+          <select class="form-control" id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="xlarge">Xlarge</option>
+          </select>
+          <br>
+          <button type="submit" class="btn btn-default">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 cost-show">
+        <h2>Hello <span class="name"></span>!</h2>
+        <p>Your total is: $ <span class="price"></span></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
   </body>
 </html>
