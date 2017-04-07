@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     var newPizza = new Pizza(toppingInput, sizeInput);
 
-    console.log(newPizza.pizzaCost());
+    // console.log(newPizza.pizzaCost());
     $(".cost-show").show();
 
 
